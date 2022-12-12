@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <unistd.>
+#include <unistd.h>
 /**
 * main - UNIX is basically simple
 *
