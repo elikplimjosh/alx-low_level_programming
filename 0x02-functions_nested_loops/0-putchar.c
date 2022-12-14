@@ -1,9 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints the word Holberton
+ * main - prints putchar
  *
- * Return: 0 on success execution.
+ * Return: 0
  */
 
 int main(void)
