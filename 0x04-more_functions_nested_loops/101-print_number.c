@@ -1,35 +1,21 @@
 #include "main.h"
-
 /**
- * num_to_char - transforms a number with 1 or more digits into a char
- * @n: number to print
+ * print_number - prints an integer
+ * @n:.input integer parameter
  *
- * Return: void
  */
-void num_to_char(unsigned int n)
+void print_number(int n)
 {
-	unsigned int d = 10;
+	unsigned int i = n;
 
-	if (n < d)
+	if (n < 0)
 	{
-		_putchar('0' + n);
+		_putchar(45);
+		i = -i;
 	}
-	else
+	if (i / 10)
 	{
-		while (n >= d)
-		{
-			d *= 10;
-			if (d == 1000000000)
-				break;
-		}
-		if (!(d == 1000000000) || n == 123456789)
-			d /= 10;
-		_putchar('0' + n / d);
-		while (d != 10)
-		{
-			d /= 10;
-			_putchar('0' + (n / d) % 10);
-		}
-		_putchar('0' + n % 10);
+		print_number(i / 10);
 	}
+i	_putchar(i % 10 + '0');
 }
