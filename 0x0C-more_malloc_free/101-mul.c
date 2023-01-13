@@ -2,11 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 /**
 * _isNum - check if is a number
 *@num: string to check
 *Return: 1 is numm, 0 not num
 */
+
 int _isNum(char *num)
 {
 	int i;
@@ -36,8 +38,8 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
-* _strlen - returns the lenght of a string
-*@s: poiter of character
+* _strlen - returns the length of a string
+*@s: pointer of character
 *Return: the length of a string
 */
 int _strlen(char *s)
