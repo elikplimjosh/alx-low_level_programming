@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * Auth : joshua ryan akakpo
  * get_bit - get the value of a bit at a given index
  * @n: number to evaluate
  * @index: index starting from 0, of the bit we want to get
