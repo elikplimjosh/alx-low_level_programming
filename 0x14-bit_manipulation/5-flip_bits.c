@@ -22,5 +22,4 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	}
 
 	return (counter);
-}
-
+} /* Auth : Joshua Ryan Akakpo*/
