@@ -27,4 +27,4 @@ unsigned int binary_to_uint(const char *b)
 	}
 
 	return (total);
-}
+} /*code by : joshua ryan akakpo*/
