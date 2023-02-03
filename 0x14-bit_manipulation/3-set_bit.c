@@ -18,4 +18,4 @@ int set_bit(unsigned long int *n, unsigned int index)
 	*n += p;
 
 	return (1);
-}
+} /* Auth : Joshua Ryan Akakpo*/
