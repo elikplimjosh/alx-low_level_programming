@@ -21,4 +21,4 @@ int clear_bit(unsigned long int *n, unsigned int index)
 		*n -= i;
 
 	return (1);
-}
+} /* Auth : Joshua Akakpo*/
