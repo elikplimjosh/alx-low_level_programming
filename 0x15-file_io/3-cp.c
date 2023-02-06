@@ -100,4 +100,4 @@ int main(int argc, char *argv[])
 	close_file(to);
 
 	return (0);
-}
+} /* Auth : joshua ryan akakpo*/
